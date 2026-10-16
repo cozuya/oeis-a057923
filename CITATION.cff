@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "Please cite this proof using the metadata below and identify the version or commit consulted."
+title: "A057923: Proof of Robert Israel's Two-Step Monotonicity Conjecture"
+type: software
+authors:
+  - family-names: Ozols
+    given-names: Chris
+    website: "https://github.com/cozuya"
+version: 1.0.0
+url: "https://github.com/cozuya/oeis-a057923"
+repository-code: "https://github.com/cozuya/oeis-a057923"
+abstract: >-
+  An elementary proof and Lean 4 formalization that the greedy bitwise OR sequence
+  OEIS A057923 satisfies a(n+2) > a(n) for every n >= 0. By Chris Ozols, with
+  AI-assisted proof development and formalization. Verified with Lean 4.35.0
+  using only the standard library. The sequence is credited to Larry Reeves
+  (2000), and the conjecture to Robert Israel (2017).
+  No claim of established worldwide priority.
+keywords:
+  - A057923
+  - A051145
+  - Robert Israel
+  - Larry Reeves
+  - greedy bitwise OR
+  - two-step monotonicity
+  - Lean
+  - formal proof
+preferred-citation:
+  type: report
+  title: "A057923: Proof of Robert Israel's Two-Step Monotonicity Conjecture"
+  authors:
+    - family-names: Ozols
+      given-names: Chris
+  url: "https://github.com/cozuya/oeis-a057923"
+  version: 1.0.0

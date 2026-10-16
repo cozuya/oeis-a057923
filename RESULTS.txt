@@ -1,0 +1,49 @@
+PROVED
+
+For the sequence in PROMPT.md, a_{n+2} > a_n for every n >= 0.
+
+Proof.
+
+First, the greedy choice always exists. Given nonnegative integers x and y,
+choose a power of two 2^k greater than x OR y. Then
+
+    y OR 2^k >= 2^k > x OR y,
+
+so the admissible set is nonempty and has a least nonnegative integer.
+Starting from a_0 = 0 and a_1 = 2, this defines every term inductively.
+
+The essential observation is that a greedy choice m shares no set bit
+with y. Indeed, if bit j were set in both m and y, then m' = m - 2^j
+would be a smaller nonnegative integer obtained by clearing that bit
+of m. Since y already supplies that bit,
+
+    y OR m' = y OR m.
+
+Thus m' would also be admissible, contradicting the minimality of m.
+Consequently a_{n+1} and a_{n+2} have no common set bit for every n >= 0.
+The initial pair a_0 = 0, a_1 = 2 also has no common set bit. Hence every
+adjacent pair has this property; its preservation uses only minimality,
+not the monotonicity we seek to prove.
+
+If nonnegative integers u and v have no common set bit, then
+
+    u OR v = u + v.
+
+To justify this identity, write their binary digits as u_i and v_i.
+Disjointness gives u_i + v_i in {0,1} at every position, so their sum
+has no carries and its digits are precisely the OR digits.
+
+For every n >= 0, apply this identity to both adjacent pairs in the
+strict inequality defining a_{n+2}. It becomes
+
+    a_{n+1} + a_{n+2} > a_n + a_{n+1}.
+
+Cancelling a_{n+1} gives a_{n+2} > a_n, as required. This includes n = 0;
+explicitly, a_2 = 1 because 2 OR 0 = 2 fails the strict inequality,
+whereas 2 OR 1 = 3 succeeds. Thus a_2 = 1 > 0 = a_0.
+
+This proves that both parity subsequences are strictly increasing.
+
+Provenance: This proof is a deduction directly from the stated greedy
+definition. It does not use the published update formula, any external
+result, or finite computational verification. No novelty claim is made.
