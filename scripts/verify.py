@@ -21,7 +21,7 @@ EXPECTED_CHECKS = {
 }
 INPUTS = [
     "A057923.lean", "Verification.lean", "lean-toolchain", "TOOLCHAIN.json",
-    "README.md", "PROVENANCE.md", "PRIOR_ART.md", "CITATION.cff",
+    "README.md", "PROVENANCE.md", "PRIOR_ART.md", "CITATION.cff", "LICENSE",
     "PROMPT.md", "RESULTS.txt", "scripts/verify.py", ".github/workflows/verify.yml",
 ]
 

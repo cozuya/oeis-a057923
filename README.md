@@ -126,3 +126,9 @@ Machine-readable metadata is in [CITATION.cff](CITATION.cff).
 Search terms: A057923; A051145; Robert Israel; Larry Reeves; Charlie Neder;
 greedy bitwise OR sequence; two-step monotonicity; alternating subsequences;
 Lean proof; Chris Ozols.
+
+## License
+
+Copyright 2026 Chris Ozols. The Lean proofs, scripts, and documentation in this
+repository are licensed under the [Apache License, Version 2.0](LICENSE).
+Third-party dependencies retain their respective licenses.
