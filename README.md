@@ -18,7 +18,6 @@ This repository proves that the greedy bitwise OR sequence **OEIS A057923** sati
 are strictly increasing. The proof is verified with **Lean 4.35.0**, using only Lean's
 standard library; Mathlib is not required.
 
-[Problem and verification overview](https://cozuya.github.io/oeis-a057923/) ·
 [Formal proof](A057923.lean) ·
 [Verification runs](https://github.com/cozuya/oeis-a057923/actions/workflows/verify.yml) ·
 [Novelty-check summary](DISCOVERY.md) · [Provenance](PROVENANCE.md) · [Prior-art audit](PRIOR_ART.md) · [Citation](CITATION.cff)
