@@ -37,3 +37,5 @@ A057923 a(n+2) > a(n); Larry Reeves greedy bitwise OR sequence;
 A051145 related bitwise-OR formula; Lean formalization of A057923.
 
 Repository: https://github.com/cozuya/oeis-a057923
+
+Overview page: https://cozuya.github.io/proofs/oeis-a057923/

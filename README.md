@@ -20,7 +20,8 @@ standard library; Mathlib is not required.
 
 [Formal proof](A057923.lean) ·
 [Verification runs](https://github.com/cozuya/oeis-a057923/actions/workflows/verify.yml) ·
-[Novelty-check summary](DISCOVERY.md) · [Provenance](PROVENANCE.md) · [Prior-art audit](PRIOR_ART.md) · [Citation](CITATION.cff)
+[Novelty-check summary](DISCOVERY.md) · [Provenance](PROVENANCE.md) · [Prior-art audit](PRIOR_ART.md) · [Citation](CITATION.cff) ·
+[Overview page](https://cozuya.github.io/proofs/oeis-a057923/)
 
 ## Exact statement
 
