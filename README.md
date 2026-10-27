@@ -2,6 +2,13 @@
 
 **By Chris Ozols, with AI-assisted proof development and formalization.**
 
+> **Proof available; no novelty claim.** A bounded search found no earlier proof of
+> Robert Israel's two-step monotonicity conjecture for A057923 in the sources
+> reviewed. I do not claim this is the first or a novel proof, or that the
+> OEIS entry has been marked resolved. This repository simply makes a proof
+> and its reproducible Lean verification available to anyone investigating
+> the same statement. See the [prior-art audit](PRIOR_ART.md).
+
 **Sequence:** Larry Reeves, October 3, 2000. **Conjecture:** Robert Israel,
 August 13, 2017. These contributions are credited in
 [OEIS A057923](https://oeis.org/A057923).
@@ -13,7 +20,7 @@ standard library; Mathlib is not required.
 
 [Formal proof](A057923.lean) ·
 [Verification runs](https://github.com/cozuya/oeis-a057923/actions/workflows/verify.yml) ·
-[Provenance](PROVENANCE.md) · [Prior-art audit](PRIOR_ART.md) · [Citation](CITATION.cff)
+[Novelty-check summary](DISCOVERY.md) · [Provenance](PROVENANCE.md) · [Prior-art audit](PRIOR_ART.md) · [Citation](CITATION.cff)
 
 ## Exact statement
 
