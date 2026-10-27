@@ -16,7 +16,8 @@ abstract: >-
   AI-assisted proof development and formalization. Verified with Lean 4.35.0
   using only the standard library. The sequence is credited to Larry Reeves
   (2000), and the conjecture to Robert Israel (2017).
-  No claim of established worldwide priority.
+  A bounded prior-art search found no earlier proof in the examined sources;
+  no novelty, first-proof, priority, or official OEIS-status claim is made.
 keywords:
   - A057923
   - A051145
@@ -26,6 +27,10 @@ keywords:
   - two-step monotonicity
   - Lean
   - formal proof
+  - Robert Israel monotonicity conjecture
+  - A057923 proof
+  - a(n+2) > a(n)
+  - disjoint adjacent bits
 preferred-citation:
   type: report
   title: "A057923: Proof of Robert Israel's Two-Step Monotonicity Conjecture"
